@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="37.456">
+    <testcase classname="Parametre Kullanimi" name="TC02 Parametre kullaniminda ConfigReader Kullanimi" time="37.155">
+        <system-out>
+            <![CDATA[Given kullanici "google" sayfasina gider....................................passed
+Then kullanici 3 saniye bekler..............................................passed
+When url'nin "google" icerdigini test edelim................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

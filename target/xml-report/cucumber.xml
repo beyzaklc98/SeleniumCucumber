@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="41.101">
+    <testcase classname="US016 Class Work4" name="TC01 alerts and explicitly wait" time="40.957">
+        <system-out><![CDATA[Given kullanici "demoUrl" anasayfasinda.....................................passed
+And kullanici 5 saniye bekler...............................................passed
+When kullanici Alerts buttonuna tiklar......................................passed
+And kullanici 5 saniye bekler...............................................passed
+And kullanici On button click, alert will appear after bes seconds karsisindaki click me  butonuna basar.passed
+And kullanici 5 saniye bekler...............................................passed
+And kullanici Allertin gorunur olmasini bekler..............................passed
+And kullanici Allert uzerindeki yazinin This alert appeared after bes seconds oldugunu test eder.passed
+And kullanici ok diyerek alerti kapatir.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
