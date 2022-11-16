@@ -37,16 +37,19 @@ public class WebDriverStepDefinition {
 
     @And("kullanici {string} kutusuna bilgileri girer")
     public void kullaniciKutusunaBilgileriGirer(String userName) {
+
         web.userName.sendKeys(userName);
     }
 
     @And("kullanici {string} bolumune bilgileri girer")
     public void kullaniciBolumuneBilgileriGirer(String pass) {
+
         actions.sendKeys(Keys.TAB).sendKeys(pass).perform();
     }
 
     @And("kullanici login butonuna basar")
     public void kullaniciLoginButonunaBasar() {
+
         actions.sendKeys(Keys.TAB).sendKeys(Keys.ENTER).perform();
     }
 
@@ -59,18 +62,19 @@ public class WebDriverStepDefinition {
 
     @And("kullanici Ok diyerek Popup'i kapatir")
     public void kullaniciOkDiyerekPopupIKapatir() {
+
         Driver.getDriver().switchTo().alert().accept();
     }
 
     @And("kullanici ilk sayfaya geri doner")
     public void kullaniciIlkSayfayaGeriDoner() {
+
         Driver.getDriver().switchTo().window(windows.get(0));
     }
 
     @And("kullanici ilk sayfaya donuldugunu test eder")
     public void kullaniciIlkSayfayaDonuldugunuTestEder() {
+
         Assert.assertEquals(Driver.getDriver().getCurrentUrl(),ilkWindow);
-
-
     }
 }
